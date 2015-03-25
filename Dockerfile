@@ -4,7 +4,7 @@ FROM node:0.10
 MAINTAINER Saidimu Apale (saidimu@gmail.com)
 
 ## limitd releases: https://github.com/auth0/limitd/releases
-ENV LIMITD_VERSION v4.1.1
+ENV LIMITD_VERSION v4.1.2
 # ENV LIMITD_URL https://codeload.github.com/auth0/limitd/tar.gz/${LIMITD_VERSION}
 ENV LIMITD_URL https://github.com/auth0/limitd/archive/${LIMITD_VERSION}.tar.gz
 ENV LIMITD_HOME /src/
