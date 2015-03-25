@@ -17,6 +17,10 @@ RUN curl -SL ${LIMITD_URL} -o limitd.tar.gz \
     && npm install \
     && rm limitd.tar.gz
 
+COPY ./limitd.yml ${LIMITD_HOME}
+
 VOLUME /data
+
+EXPOSE 9001
 
 CMD ./bin/limitd --config-file limitd.yml
