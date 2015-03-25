@@ -1,0 +1,15 @@
+#port to listen on
+port: 9001
+
+#db path
+db: /data/limitd-example.db
+
+log_level: debug
+
+#define the bucket types
+buckets:
+  ip:
+    size: 10
+    per_minute: 10
+  wrong_password:
+    size: 3
