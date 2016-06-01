@@ -8,7 +8,7 @@ ENV LIMITD_VERSION v4.17.2
 
 RUN npm install limitd@${LIMITD_VERSION}
 VOLUME /data
-EXPOSE 9001
+EXPOSE 9231
 ENV LIMITD_CONFIG /data/limitd.yml
 
 CMD ./node_modules/.bin/limitd --config-file ${LIMITD_CONFIG}
