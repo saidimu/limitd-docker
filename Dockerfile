@@ -11,4 +11,4 @@ VOLUME /data
 EXPOSE 9001
 ENV LIMITD_CONFIG /data/limitd.yml
 
-CMD ./node-modules/.bin/limitd --config-file ${LIMITD_CONFIG}
+CMD ./node_modules/.bin/limitd --config-file ${LIMITD_CONFIG}
