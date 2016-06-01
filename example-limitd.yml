@@ -2,7 +2,7 @@
 port: 9001
 
 #db path
-db: /data/limitd-example.db
+db: /data/limitd.db
 
 log_level: debug
 
